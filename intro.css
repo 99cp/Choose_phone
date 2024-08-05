@@ -1,0 +1,11 @@
+.my_img {
+    filter: brightness(1);
+    transition: 3s;
+    width: 100%;
+    height: 1300px;
+    
+}
+ 
+.my_img:hover {
+    filter: brightness(0);
+}

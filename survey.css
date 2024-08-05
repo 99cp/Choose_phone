@@ -1,0 +1,104 @@
+body{
+	font-family: sans-serif;
+	margin: auto;
+	color: rgb(3, 3, 3);
+}
+p{
+	margin-left: 720px;
+}
+.head {
+	font-size: 40px;
+	color: #000000;
+}
+#container{
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow-y: scroll;
+}
+
+.head{
+	text-align: center;
+	padding: 25px 0;
+}
+.head #title{
+	font-size: 32px;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
+.head #description{
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	line-height: 8px;
+}
+section{
+	background-color: rgba(6, 241, 171, 0.301);
+}
+
+/*style of form*/
+#survey-form{
+	width: 70%;
+	height: auto;
+	background-color: #ffffff;
+	padding: 30px 35px;
+	margin: auto;
+}
+#survey-form label{
+	font-weight: lighter;
+	font-size: 28px;
+}
+#survey-form #name{
+	width: 100%;
+	margin-top: 8px;
+	margin-bottom: 2rem;
+	padding: 10px 0;
+	border-radius: 6px;
+}
+#survey-form #name{
+	outline: none;
+}
+::placeholder{
+	padding: 0 10px;
+	font-size: 15px;
+}
+#survey-form #radio-btn-0,#radio-btn-1,#radio-btn-2,#radio-btn-3,#radio-btn-4{
+	margin:10px 0;
+  margin-left: 90px;
+	font-size: 20px;
+}
+#survey-form .checkbox input{
+	margin: 8px 0;
+}
+#survey-form textarea{
+	width: 100%;
+	margin-top: 8px;
+}
+#survey-form #btn{
+	width: 50%;
+	padding: 13px 0px;
+	background-color: #37AF65;
+	color: #fff;
+	border: 1px solid #37AF65;
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: lighter;
+ 	margin-left: 25%;
+}
+.buttonTwo{
+	opacity: 0.0;
+}
+.buttonThree{
+	opacity: 0.0;
+}
+.buttonFour{
+	opacity: 0.0;
+}
+.buttonFive{
+	opacity: 0.0;
+}
