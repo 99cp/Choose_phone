@@ -15,9 +15,18 @@
 
 ### Q3. 주요 로직
 1. Python Selenium을 이용한 웹 스크래핑
+   - chromeDriver를 이용해 crawling.py에서 웹 스크래핑 진행
+
 2. 스크래핑 데이터 자동 정렬 및 DB 저장
+   - crawling.py 내부에서 정렬 로직을 구현하여 DB에 데이터 저장
+
 3. 사용자 맞춤 설문조사 진행
+   - surveyA.html, surveyB.html을 통해 사용자 요구사항 수집
+
 4. 설문 결과 기반 제품 추천 알고리즘
+   - 설문 결과 제출 시 sorting.jsp에서 설문 결과값을 기반으로 DB와 통신
+   - 설문 결과값에 맞는 제품군 선별하여 total 테이블 생성 및 저장
+   - end.jsp에서 total 테이블의 데이터를 정렬하여 최종 제품 추천
 
 ## 서비스 구조
 
